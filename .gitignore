@@ -1,0 +1,12 @@
+# Local parameter overrides (may contain real IDs) — never commit these.
+*.local.bicepparam
+
+# Bicep build outputs
+*.json
+!*.bicepparam
+# (Compiled ARM templates are build artifacts; the .bicep sources are the
+#  deliverable. Keep generated .json out of the repo.)
+
+# Editor / OS noise
+.vscode/
+.DS_Store
